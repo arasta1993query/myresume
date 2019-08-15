@@ -111,6 +111,18 @@ a:hover::before {
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
     background: url('../img/empty-account.png') no-repeat center 25px #FFF;
+    overflow: hidden;
+}
+
+.c-profile_img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
 }
 
 .c-my_name {
